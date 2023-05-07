@@ -1,46 +1,90 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Personl Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-  </head>
-  <body>
-    <nav class="nav">
-      <input type="checkbox" id="nav-check">
-      <div class="nav-header">
-        <div class="nav-title">
-          Chandra Prakash
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personl Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <nav class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        Chandra Prakash
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+
+    <ul class="nav-list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Projects</a></li>
+    </ul>
+  </nav>
+  <!-- ------------------Header Ends------------------ -->
+  <div class="hero">
+    <div class="hero-left">
+      <div class="hero-left-text">
+        <p>Frontend Developer</p>
+        <h1>I'm <span>Chandra Prakash</span><br>From Utter Pradesh</h1>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="img/cp2.png" alt="">
+    </div>
+  </div>
+
+  <!-- -------------About Section Html--------------- -->
+  <div class="about">
+    <div class="photo">
+      <img src="img/about.jpg">
+    </div>
+
+    <div class="about_me">
+      <div class="about_me_container">
+        <h1>About Me</h1>
+        <p>My name is Chandra Prakash. I'm a highly Motivated & Enthusiastic frontend web developer. I'm very passionate
+          about web development and always be willing to learn new skills. Right now i am looking for an internship
+          opportunity to work on real projects to gain practical experience in the field.</p>
+        <div class="skills">
+          <h3 onclick="education_show()">Education</h3>
+          <h3 onclick="experince_show()">Experience</h3>
+        </div>
+        <div class="content">
+          <div class="education" id="edu">
+            <span>BCA</span>
+            <p>United Institute Of Management</p>
+            <span>InterMediate</span>
+            <p>MSDDIC Dawanpur Bhadohi</p>
+            <span>HighSchool</span>
+            <p>MSDDIC Dawanpur Bhadohi</p>
+          </div>
+
+          <div class="experience" id="exp">
+            <span>Oasis Infobyte</span>
+            <p>Web Development</p>
+            <span>Let's Grow More</span>
+            <p>Web App Development</p>
+            <span>The Spark Foundation</span>
+            <p>Building Android/IOS App</p>
+          </div>
         </div>
       </div>
-      <div class="nav-btn">
-        <label for="nav-check">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
-      </div>
-      
-      <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Projects</a></li>
-      </ul>
-    </nav>
-    <!-- ------------------Header Ends------------------ -->
-    <div class="hero">
-      <div class="hero-left">
-          <div class="hero-left-text">
-              <p>Frontend Developer</p>
-              <h1>I'm <span>Chandra Prakash</span><br>From Utter Pradesh</h1>
-          </div>  
-      </div>
-      <div class="hero-right">
-          <img src="img/cp2.png" alt="">
-      </div>
+
+    </div>
   </div>
-  </body>
+  <script src="js/script.js"></script>
+</body>
+
 </html>

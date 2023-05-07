@@ -64,14 +64,32 @@
     }
     .hero-left{
         width: 100%;
-        height: 45vh;
+        height: 35vh;
     }
     .hero-right{
         width: 100%;
         height: 40vh;
-        margin-top: 20px;
+        margin-top: 40px;
     }
     .hero-right img{
         border-radius: 10%;
+    }
+}
+
+/* ----------------About Me CSS----------------- */
+
+@media (max-width:650px){
+    .photo{
+        width: 100%;
+        height: 75vh;
+    }
+    .photo img{
+        width: 250px;
+        height: 350px;
+        border-radius: 10px;
+        border: 5px solid darkturquoise;
+    }
+    .about_me{
+        margin-top: 50px;
     }
 }
